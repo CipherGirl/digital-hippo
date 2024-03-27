@@ -27,6 +27,7 @@ const perks = [
 export default function Home() {
   return (
     <>
+      {/* Hero Section */}
       <MaxWidthWrapper>
         <div className="py-20 mx-auto text-center flex flex-col items-center max-w-3xl">
           <h1 className="text-4xl font-bold tracking-tighter text-gray-900 sm:text-6xl">
@@ -45,7 +46,10 @@ export default function Home() {
           </div>
         </div>
       </MaxWidthWrapper>
+
       {/* //Todo: List Products */}
+
+      {/* Perks Section */}
       <section className="border-t border-gray-200 bg-gray-50">
         <MaxWidthWrapper className="py-20">
           <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0">
